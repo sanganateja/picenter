@@ -1,1 +1,4 @@
-hello world
+FROM ubuntu
+RUN yum install wget
+mkdir /opt/yaa
+
